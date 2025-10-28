@@ -112,63 +112,6 @@ const VOTERS_101 = [
 
 // Dataset 102 - Mumbai West constituency
 const VOTERS_102 = [
-  { 
-    id: 'MW-001', 
-    name: 'Ravi Kumar Sharma', 
-    voterId: 'VTR-80001', 
-    gender: 'Male', 
-    age: 45, 
-    boothNo: 'B21', 
-    srNo: '001', 
-    mobile: '+91-9876540001', 
-    address: '15, Andheri West, Mumbai',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg'
-  },
-  { 
-    id: 'MW-002', 
-    name: 'Priya Desai', 
-    voterId: 'VTR-80002', 
-    gender: 'Female', 
-    age: 38, 
-    boothNo: 'B22', 
-    srNo: '002', 
-    mobile: '+91-9876540002', 
-    address: '28, Bandra West, Mumbai',
-    image: 'https://randomuser.me/api/portraits/women/25.jpg'
-  },
-  { 
-    id: 'MW-003', 
-    name: 'Amit Patel', 
-    voterId: 'VTR-80003', 
-    gender: 'Male', 
-    age: 52, 
-    boothNo: 'B23', 
-    srNo: '003', 
-    mobile: '+91-9876540003', 
-    address: '42, Juhu, Mumbai',
-    image: 'https://randomuser.me/api/portraits/men/55.jpg'
-  },
-    // --- Added from Hindi PDF: 2025-EROLLGEN-S04-46-SIR-FinalRoll-Revision1-HIN-1-WI ---
-    { id: 'MW-004', name: 'राम कुमार यादव', voterId: 'VTR-80004', gender: 'Male', age: 50, boothNo: 'B24', srNo: '004', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/70.jpg' },
-    { id: 'MW-005', name: 'सीता देवी शर्मा', voterId: 'VTR-80005', gender: 'Female', age: 42, boothNo: 'B24', srNo: '005', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/71.jpg' },
-    { id: 'MW-006', name: 'मोहन लाल वर्मा', voterId: 'VTR-80006', gender: 'Male', age: 36, boothNo: 'B24', srNo: '006', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/72.jpg' },
-    { id: 'MW-007', name: 'गीता कुमारी', voterId: 'VTR-80007', gender: 'Female', age: 29, boothNo: 'B24', srNo: '007', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/73.jpg' },
-    { id: 'MW-008', name: 'अजय सिंह', voterId: 'VTR-80008', gender: 'Male', age: 41, boothNo: 'B24', srNo: '008', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/74.jpg' },
-    { id: 'MW-009', name: 'किरण देवी', voterId: 'VTR-80009', gender: 'Female', age: 35, boothNo: 'B24', srNo: '009', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/75.jpg' },
-    { id: 'MW-010', name: 'सुरेश कुमार', voterId: 'VTR-80010', gender: 'Male', age: 48, boothNo: 'B24', srNo: '010', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/76.jpg' },
-    { id: 'MW-011', name: 'माया शर्मा', voterId: 'VTR-80011', gender: 'Female', age: 39, boothNo: 'B24', srNo: '011', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/77.jpg' },
-    { id: 'MW-012', name: 'विनोद कुमार', voterId: 'VTR-80012', gender: 'Male', age: 44, boothNo: 'B24', srNo: '012', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/78.jpg' },
-    { id: 'MW-013', name: 'राधा देवी', voterId: 'VTR-80013', gender: 'Female', age: 33, boothNo: 'B24', srNo: '013', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/79.jpg' },
-    { id: 'MW-014', name: 'शिव कुमार', voterId: 'VTR-80014', gender: 'Male', age: 52, boothNo: 'B24', srNo: '014', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/80.jpg' },
-    { id: 'MW-015', name: 'पूनम कुमारी', voterId: 'VTR-80015', gender: 'Female', age: 27, boothNo: 'B24', srNo: '015', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/81.jpg' },
-    { id: 'MW-016', name: 'अमित कुमार', voterId: 'VTR-80016', gender: 'Male', age: 38, boothNo: 'B24', srNo: '016', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/82.jpg' },
-    { id: 'MW-017', name: 'सुमन देवी', voterId: 'VTR-80017', gender: 'Female', age: 31, boothNo: 'B24', srNo: '017', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/83.jpg' },
-    { id: 'MW-018', name: 'राजेश कुमार', voterId: 'VTR-80018', gender: 'Male', age: 47, boothNo: 'B24', srNo: '018', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/84.jpg' },
-    { id: 'MW-019', name: 'कुसुम कुमारी', voterId: 'VTR-80019', gender: 'Female', age: 40, boothNo: 'B24', srNo: '019', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/85.jpg' },
-    { id: 'MW-020', name: 'मनोज कुमार', voterId: 'VTR-80020', gender: 'Male', age: 34, boothNo: 'B24', srNo: '020', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/86.jpg' },
-    { id: 'MW-021', name: 'रमा देवी', voterId: 'VTR-80021', gender: 'Female', age: 37, boothNo: 'B24', srNo: '021', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/87.jpg' },
-    { id: 'MW-022', name: 'अशोक कुमार', voterId: 'VTR-80022', gender: 'Male', age: 43, boothNo: 'B24', srNo: '022', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/men/88.jpg' },
-    { id: 'MW-023', name: 'सावित्री देवी', voterId: 'VTR-80023', gender: 'Female', age: 32, boothNo: 'B24', srNo: '023', mobile: '', address: 'सांताक्रूज़, मुंबई', image: 'https://randomuser.me/api/portraits/women/89.jpg' },
 ];
 
 // Dataset 103 - Delhi North constituency

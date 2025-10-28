@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953754037163",
+    "project_id": "vijayibhav-c5435",
+    "storage_bucket": "vijayibhav-c5435.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953754037163:android:de733ead811b3ac3af00ee",
+        "android_client_info": {
+          "package_name": "com.VijayiBhav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDs0Jll32uI5qwRCrCUrlpftiN1bqD1-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
